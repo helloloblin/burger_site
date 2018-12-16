@@ -1,0 +1,49 @@
+//colors
+$orange: #e45028;
+$yellow: #f9b43b;
+$black: #2f3234;
+$red: #e35028;
+
+// resolutions
+$desktop: 1200px;
+$laptop: 992px;
+$tablets: 768px;
+$phones: 480px;
+
+//normalize
+@import "_misc/normalize.scss";
+
+// media
+@import "_misc/media";
+
+// setups
+@import "_misc/mixins";
+@import "_misc/fonts";
+@import "_misc/layout";
+
+// blocks
+@import "./blocks/best";
+@import "./blocks/btn";
+@import "./blocks/burger-slider-wrap";
+@import "./blocks/burgers";
+@import "./blocks/fixed-menu";
+@import "./blocks/footer";
+@import "./blocks/hamburger-menu-link";
+@import "./blocks/hamburger-menu";
+@import "./blocks/header";
+@import "./blocks/hero.scss";
+@import "./blocks/logo";
+@import "./blocks/map";
+@import "./blocks/menu-acco";
+@import "./blocks/menu";
+@import "./blocks/nav";
+@import "./blocks/order-link";
+@import "./blocks/order";
+@import "./blocks/popups";
+@import "./blocks/reviews";
+@import "./blocks/section";
+@import "./blocks/socials";
+@import "./blocks/team-acco";
+@import "./blocks/team";
+@import "./blocks/text-block";
+@import "./blocks/slider";
